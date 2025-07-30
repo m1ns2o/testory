@@ -1,12 +1,11 @@
 import {supabase} from "@renderer/utils/supabase";
-import {shell} from "electron";
 
 export const googleLogin = async (): Promise<{
   url?: string;
   error?: string;
 }> => {
   try {
-    const { data, error } = await supabase.auth.signInWithOAuth({
+    const { data} = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
         skipBrowserRedirect: true,
@@ -15,14 +14,12 @@ export const googleLogin = async (): Promise<{
       },
     });
 
-    if (error) {
-      return { error: error.message };
-    }
 
     if (data.url) {
       // 브라우저에서 OAuth 플로우 시작
       // window.open(data.url, '_blank')
-      await shell.openExternal(data.url);
+      // await shell.openExternal(data.url);
+      await window.electronAPI.openExternal(data.url);
       return { url: data.url };
     }
 
