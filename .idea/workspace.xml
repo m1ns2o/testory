@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c88e615-cb8f-4e86-9c6e-ba63203bd10f" name="Changes" comment="shell&amp;ipc">
+    <list default="true" id="2c88e615-cb8f-4e86-9c6e-ba63203bd10f" name="Changes" comment="google login button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/src/utils/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/src/utils/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/src/views/Test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/src/views/Test.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,9 @@
       <workItem from="1753824768068" duration="3201000" />
       <workItem from="1753842184195" duration="5531000" />
       <workItem from="1753851435682" duration="6748000" />
-      <workItem from="1753859145767" duration="439000" />
+      <workItem from="1753859145767" duration="1690000" />
+      <workItem from="1753860933744" duration="98000" />
+      <workItem from="1753861232705" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="shell&amp;ipc">
       <option name="closed" value="true" />
@@ -123,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753857122742</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="google login button">
+      <option name="closed" value="true" />
+      <created>1753859654292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753859654292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shell&amp;ipc" />
-    <option name="LAST_COMMIT_MESSAGE" value="shell&amp;ipc" />
+    <MESSAGE value="google login button" />
+    <option name="LAST_COMMIT_MESSAGE" value="google login button" />
   </component>
   <component name="VueSettings">
     <option name="useTypesFromServer" value="true" />
