@@ -24,6 +24,7 @@
     "@electron-toolkit/preload": "^3.0.2",
     "@electron-toolkit/utils": "^4.0.0",
     "@nuxt/ui": "^3.3.0",
+    "@supabase/supabase-js": "^2.53.0",
     "electron-updater": "^6.3.9",
     "vue-router": "^4.5.1"
   },

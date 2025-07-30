@@ -4,6 +4,8 @@ import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
 function createWindow(): void {
+
+
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 900,
@@ -51,6 +53,9 @@ app.whenReady().then(() => {
 
   // IPC test
   ipcMain.on('ping', () => console.log('pong'))
+  ipcMain.handle('open-external', async (_event, url) => {
+    return shell.openExternal(url);
+  });
 
   createWindow()
 
