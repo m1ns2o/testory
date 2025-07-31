@@ -25,12 +25,16 @@ declare global {
   const useAvatarGroup: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useAvatarGroup.js')['useAvatarGroup']
   const useButtonGroup: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useButtonGroup.js')['useButtonGroup']
   const useComponentIcons: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useComponentIcons.js')['useComponentIcons']
+  const useContentSearch: typeof import('../../node_modules/@nuxt/ui-pro/dist/runtime/composables/useContentSearch.js')['useContentSearch']
   const useFileUpload: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useFileUpload.js')['useFileUpload']
   const useFormField: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useFormField.js')['useFormField']
   const useKbd: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useKbd.js')['useKbd']
   const useLocale: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useLocale.js')['useLocale']
+  const useLocalePro: typeof import('../../node_modules/@nuxt/ui-pro/dist/runtime/composables/useLocalePro.js')['useLocalePro']
   const useOverlay: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useOverlay.js')['useOverlay']
   const usePortal: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/usePortal.js')['usePortal']
+  const useResizable: typeof import('../../node_modules/@nuxt/ui-pro/dist/runtime/composables/useResizable.js')['useResizable']
+  const useScrollspy: typeof import('../../node_modules/@nuxt/ui-pro/dist/runtime/composables/useScrollspy.js')['useScrollspy']
   const useToast: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useToast.js')['useToast']
 }
 // for type re-export
