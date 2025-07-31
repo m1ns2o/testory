@@ -1,4 +1,4 @@
-import {supabase} from "@renderer/utils/supabase";
+import supabase from "@renderer/utils/supabase";
 
 export const googleLogin = async (): Promise<{
   url?: string;
