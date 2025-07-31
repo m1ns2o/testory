@@ -12,7 +12,6 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     UApp: typeof import('./../../node_modules/@nuxt/ui/dist/runtime/components/App.vue')['default']
     UButton: typeof import('./../../node_modules/@nuxt/ui/dist/runtime/components/Button.vue')['default']
-    UColorPicker: typeof import('./../../node_modules/@nuxt/ui/dist/runtime/components/ColorPicker.vue')['default']
     Versions: typeof import('./src/components/Versions.vue')['default']
   }
 }

@@ -1,7 +1,8 @@
-import { ElectronAPI } from '@electron-toolkit/preload'
+import { ElectronAPI } from "@electron-toolkit/preload";
 
 // 타입을 별도로 정의하여 재사용성 향상
 export interface CustomElectronAPI {
+  onSupabaseCode: (callback: (code: string) => void) => () => void;
   openExternal: (url: string) => Promise<void>;
 }
 

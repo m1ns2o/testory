@@ -59,12 +59,9 @@ const getSession = async (): Promise<void> => {
 
 // 라이프사이클 훅
 onMounted(async () => {
-  // IPC 리스너 등록
   if (window.electronAPI) {
     removeListener = window.electronAPI.onSupabaseCode(handleSupabaseCode);
   }
-  
-  // 초기 세션 확인
   await getSession();
 });
 
