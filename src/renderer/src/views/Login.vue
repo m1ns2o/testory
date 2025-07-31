@@ -80,6 +80,20 @@ onUnmounted(() => {
 <template>
   <div>
     <UButton color="neutral" variant="outline" @click="onClcik">Login</UButton>
-    <UColorPicker default-value="#00BCD4" />
+    <!-- <UColorPicker default-value="#00BCD4" /> -->
+    <UChatPrompt variant="soft">
+      <UChatPromptSubmit />
+    </UChatPrompt>
+    <UPageCard class="w-full max-w-md">
+      <UAuthForm
+        :schema="schema"
+        title="Login"
+        description="Enter your credentials to access your account."
+        icon="i-lucide-user"
+        :fields="fields"
+        :providers="providers"
+        @submit="onSubmit"
+      />
+    </UPageCard>
   </div>
 </template>

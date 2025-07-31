@@ -1,6 +1,7 @@
 node_modules
 dist
 out
+my-vue-starter
 .DS_Store
 .eslintcache
 *.log*

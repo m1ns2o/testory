@@ -11,8 +11,12 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     UApp: typeof import('./../../node_modules/@nuxt/ui/dist/runtime/components/App.vue')['default']
+    UAuthForm: typeof import('./../../node_modules/@nuxt/ui-pro/dist/runtime/components/AuthForm.vue')['default']
     UButton: typeof import('./../../node_modules/@nuxt/ui/dist/runtime/components/Button.vue')['default']
+    UChatPrompt: typeof import('./../../node_modules/@nuxt/ui-pro/dist/runtime/components/ChatPrompt.vue')['default']
+    UChatPromptSubmit: typeof import('./../../node_modules/@nuxt/ui-pro/dist/runtime/components/ChatPromptSubmit.vue')['default']
     UColorPicker: typeof import('./../../node_modules/@nuxt/ui/dist/runtime/components/ColorPicker.vue')['default']
+    UPageCard: typeof import('./../../node_modules/@nuxt/ui-pro/dist/runtime/components/PageCard.vue')['default']
     Versions: typeof import('./src/components/Versions.vue')['default']
   }
 }

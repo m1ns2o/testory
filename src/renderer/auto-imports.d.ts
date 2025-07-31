@@ -40,6 +40,9 @@ declare global {
 // for type re-export
 declare global {
   // @ts-ignore
+  export type { UseResizableProps, UseResizableReturn } from '../../node_modules/@nuxt/ui-pro/dist/runtime/composables/useResizable.d'
+  import('../../node_modules/@nuxt/ui-pro/dist/runtime/composables/useResizable.d')
+  // @ts-ignore
   export type { ShortcutConfig, ShortcutsConfig, ShortcutsOptions } from '../../node_modules/@nuxt/ui/dist/runtime/composables/defineShortcuts.d'
   import('../../node_modules/@nuxt/ui/dist/runtime/composables/defineShortcuts.d')
   // @ts-ignore
